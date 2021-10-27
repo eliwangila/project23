@@ -8,6 +8,7 @@
                     <div>price:{{product.price}}</div>
                     <div>category:{{product.category}}</div>
                     <div>date added: {{product.date_first_available | date}}</div>
+                    <div> <img src="{{product.image}}" alt="" srcset=""> </div>
                     <div class="buttons">
                         <a routerLink="edit/{{product.id}}"><button class="btn secondary" style="margin-left: 0;">Edit</button></a>
                         <button (click)="deleteTheData(product.id)" class="btn danger">Delete</button>  

@@ -14,6 +14,7 @@ export class MyformComponent implements OnInit {
     name : new FormControl(),
     price : new FormControl(),
     category : new FormControl(),
+    image : new FormControl()
   });
   
   constructor(private serv:ApiService) { }
