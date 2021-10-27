@@ -53,3 +53,6 @@ button{
     justify-content: center;
     align-content: center;
 }
+#nav {
+    color: chartreuse;
+}
