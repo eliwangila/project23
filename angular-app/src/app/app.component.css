@@ -1,6 +1,6 @@
 .nav-bar{
     display: block;
-    background: linear-gradient(to bottom left,rgb(230, 136, 136),red);
+    background: linear-gradient(to bottom left,rgb(230, 136, 136),rgb(201, 240, 111));
     padding: 20px;
 }
 .nav-bar ul li{

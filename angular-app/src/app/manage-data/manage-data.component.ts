@@ -33,7 +33,8 @@ export class ManageDataComponent implements OnInit {
       // populate the form using the data from the server.
       this.productForm.setValue({'name':this.product_data.name,
                                  'price':this.product_data.price,
-                                 'category':this.product_data.category
+                                 'category':this.product_data.category,
+                                  'image':this.product_data.image
                                 });
     });
   }
